@@ -193,4 +193,4 @@ Do not delete unless changing the PDF.
 
 # License
 
-MIT
+[MIT](LICENSE)
