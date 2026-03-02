@@ -19,18 +19,24 @@ A basic Retrieval-Augmented Generation (RAG) chatbot that answers questions from
 ```
 pdf_chatbot/
 │
-├── rag-chatbot/
-│   └── app.py
-│
 ├── pdf/
-│   └── your_file.pdf
+│   └── sample.pdf
+│
+├── snapshots/
+│   ├── CLI.png
+│   ├── main_ui.png
+│   ├── vectorstore.png
+│   └── sample_response.png
 │
 ├── vectorstore/
 │
-├── .env
-├── requirements.txt
+├── main.py
+├── streamlit_app.py
+├── rag_core.py
+│
 ├── pyproject.toml
-└── README.md
+├── README.md
+└── LICENSE
 ```
 
 ---
@@ -169,6 +175,24 @@ You: what is this pdf about?
 
 Bot: This document explains...
 ```
+---
+
+---
+
+# Snapshots
+
+## Main Interface
+
+![Chat Interface](snapshots/main_ui.png)
+
+---
+
+## More Screenshots
+
+- Vectorstore Created → [View](snapshots/vector_files.png)
+- CLI Interface → [View](snapshots/CLI.png)
+- Sample Question Answer → [View](snapshots/sample_response.png)
+
 
 ---
 
